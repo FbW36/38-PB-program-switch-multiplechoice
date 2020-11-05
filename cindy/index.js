@@ -6,19 +6,10 @@
 
 function colors(myColor){
     switch(myColor){
-  
-      case 1: 
-      case 2: 
-      case 3: return "Sexy red";
-      case 4: 
-      case 5: return 'Peaceful blue';
-      case 6: 
-      case 7: 
-      case 8: return 'Wild green';
-      case 9: 
-      case 10: 
-      case 11: 
-      case 12: return 'Funny yellow';
+      case 1: return "Sexy red";
+      case 2: return 'Peaceful blue';
+      case 3: return 'Wild green';
+      case 4: return 'Funny yellow';
       default: return " only from 1 - 12 :c";
     }  }
   console.log("choose your color according to your month of birth  => ", colors(13))
@@ -47,19 +38,10 @@ function Grades(myGrade){
 //Create a switch statement that prints different statement for various fruit (e.g. banana, orange, strawberry, apple).
 function fruits(myFruit){
     switch(myFruit){
-  
-      case 1: 
-      case 2: 
-      case 3: return "banana";
-      case 4: 
-      case 5: return 'Orange';
-      case 6: 
-      case 7: 
-      case 8: return 'strawberry';
-      case 9: 
-      case 10: 
-      case 11: 
-      case 12: return 'apple';
+      case 1: return "banana";
+      case 2: return 'Orange';
+      case 3: return 'strawberry';
+      case 4: return 'apple';
       default: return " only from 1 - 12 :c";
     }  }
   console.log("Here's your fruit according to your month of birth  => ", fruits(7))
