@@ -4,12 +4,16 @@ function colors(color){
 switch (color) {
     case "red":
         return "roses are red"
+        break
     case "blue":
         return "the sky is blue"
+        break
     case "green":
         return "the grass is green"
+        break
     case "yellow":
       return "the sun is yellow"
+      break
     default:
       return "Sorry, we are out of " + color + ".";
   }
@@ -26,12 +30,16 @@ switch (color) {
     switch (grade) {
         case "A":
             return "nice job"
+            break
         case "B":
             return "well done"
+            break
         case "C":
             return "keep up the good work"
+            break
         case "D":
           return "a few mistakes here n there"
+          break
         default:
           return "Sorry, try again";
       }
@@ -49,8 +57,10 @@ function fruits(fruit){
     switch(fruit){
         case "banana":
             return "monkeys like bananas"
+            break
         case "strawberry":
             return "strawberries are sweet"
+            break
         case "apple":
             return "is my favorite technology company"
     }
@@ -66,14 +76,19 @@ function percentages(percent){
     switch(true){
         case (percent <30):
             return "Still a long way to go"
+            break
         case (percent >30 && percent <=50):
             return "Slowly getting there"
+            break
         case (percent >50 && percent <=80):
             return "You can do it!"
+            break
         case (percent >80 && percent <=99):
             return "This is the last push!"
+            break
         case (percent ==100):
             return "You're there. Well done!"
+            break
         default:
             return "Not from this Planet!"
     }
