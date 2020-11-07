@@ -52,13 +52,13 @@ switch (true) {
   case number < 30:
     console.log("Still a long way to go");
     break;
-  case number <= 50 && number >= 30:
+  case number >= 30 && number <= 50:
     console.log("Slowly getting there");
     break;
-  case number <= 51 && number >= 80:
+  case number >= 51 && number <= 80:
     console.log("You can do it!");
     break;
-  case number <= 81 && number >= 99:
+  case number >= 81 && number <= 99:
     console.log("This is the last push!");
     break;
   case number === 100:
@@ -67,3 +67,9 @@ switch (true) {
   default:
     console.log("find no number");
 }
+
+// 5 Difference between if esle and switch
+// Generally, if we are testing an expression
+// or boolean values, then we would use if/else.
+// In contrast, we would use switch when choosing
+// between a number of options.
