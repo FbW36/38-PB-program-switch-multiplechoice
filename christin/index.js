@@ -76,18 +76,18 @@ function percentageComplete(percentage) {
   switch (true) {
     case percentage <= 30:
       return "Still a long way to go";
-    case percentage <= 50:
+    case percentage >= 31 && percentage <= 50:
       return "Slowly getting there";
-    case percentage <= 80:
+    case percentage >= 51 && percentage <= 80:
       return "You can do it!";
-    case percentage <= 99:
+    case percentage >= 81 && percentage <= 99:
       return "This is the last push";
     case 100:
       return "You're there! Well done!";
   }
 }
 
-console.log(percentageComplete(66));
+console.log(percentageComplete(31));
 
 //5. Differences
 //When should you use a switch statement versus an if else statement.Comment your answer in your js file.
